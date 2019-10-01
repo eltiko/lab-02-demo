@@ -11,4 +11,10 @@ if (study === 'YES') {
 } else {
     alert ( 'you should to it' + ' ' + username)
 }
-            
+var studyPlus = prompt ( 'Dou you like sciences')
+studyPlus = studyPlus.toUpperCase();
+if (studyPlus === 'YES'){
+    alert ('amazing')
+} else {
+   alert('Oh' + '' + username + '' + 'science makes the word go around'); 
+}
