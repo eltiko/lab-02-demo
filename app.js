@@ -17,4 +17,10 @@ if (studyPlus === 'YES'){
     alert ('amazing')
 } else {
    alert('Oh' + '' + username + '' + 'science makes the word go around'); 
+}var study2 = prompt ( 'Do you like biology');
+study2 = study2.toUpperCase();
+if (study2 === 'YES'){
+    alert ( 'Welcome to my world')
+} else {
+    'Let me tell that you biology is life'
 }
