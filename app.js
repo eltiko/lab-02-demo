@@ -31,3 +31,10 @@ if ( job === 'YES') {
 } else {
    alert  ('knowledge is the only thing you can share without loosing it');
 }
+var cook = prompt ( 'Do you know how to cook');
+cook = cook.toUpperCase ();
+if (cook === 'YES') {
+    ('Your partener will love you so much as your kids');
+} else {
+  alert  ('You should learn it for youself, your partener and your kids of course');
+}
