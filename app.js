@@ -8,7 +8,7 @@ alert ('Hello' + ' ' + username);
 
 
 function askStudy() {
-  var study = prompt ('did you go to the college');
+  var study = prompt ('did i go to the college ?');
   study = study.toUpperCase();
   if (study === 'YES' || study === 'Y') {
     alert ( 'Congrats' + ' ' + username);
@@ -19,7 +19,7 @@ function askStudy() {
 }
 
 function askStudyS() {
-  var studyPlus = prompt ( 'Dou you like sciences');
+  var studyPlus = prompt ( 'Dou i like sciences ?');
   studyPlus = studyPlus.toUpperCase();
   if (studyPlus === 'YES' || studyPlus === 'Y'){
     alert ('amazing');
@@ -30,7 +30,7 @@ function askStudyS() {
 }
 
 function studyask() {
-  var study2 = prompt ( 'Do you like biology');
+  var study2 = prompt ( 'Do i like biology ?');
   study2 = study2.toUpperCase();
   if (study2 === 'YES' || study2 === 'Y'){
     alert ( 'Welcome to my world');
@@ -41,31 +41,31 @@ function studyask() {
 }
 
 function jobs() {
-  var job = prompt ( 'did you ever been teacher' );
+  var job = prompt ( 'did i ever been teacher ?' );
   job = job.toUpperCase ();
   if ( job === 'YES' || job === 'Y') {
-    alert ('you did the best thing in the world' + ' ' + username);
+    alert ('It a Great Job' + ' ' + username);
     counter++;
   } else {
-    alert ('knowledge is the only thing you can share without loosing it');
+    alert ('I did it for 7years');
   }
 }
 
 function cooks() {
-  var cook = prompt ( 'Do you know how to cook');
+  var cook = prompt ( 'Do I know how to cook ?');
   cook = cook.toUpperCase ();
   if (cook === 'YES' || cook === 'Y') {
-    alert ('Your partener will love you so much as your kids');
+    alert ('Great !! That\'s one of the most important things to know');
     counter++;
   } else {
-    alert ('You should learn it for youself, your partener and your kids of course');
+    alert ('I learned months ago !');
   }
 }
 
 function secretNumbers() {
   var secretNumber = 10;
   for (var i = 0; i < 4 ; i++) {
-    var userNumberGuess = prompt ('well ! Lets play ! Can you guess my favorite number');
+    var userNumberGuess = prompt ('well ! Can you guess my favorite number ?');
     userNumberGuess = parseFloat(userNumberGuess);
     if (userNumberGuess === secretNumber){
       alert ('Great you should be a magician' + ' ' + username);
