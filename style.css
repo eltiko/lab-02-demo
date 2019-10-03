@@ -1,7 +1,7 @@
 h1 {
     text-transform: uppercase;
     color: blue;
-    background-color: rgba(77, 5, 67, 0.479);
+    background-color: rgba(117, 223, 107, 0.747);
     font-size: 19px; 
     text-align: center;
     border: 3px solid black; 
@@ -20,8 +20,16 @@ header {
     scroll-margin-bottom: 20px;
 }
 main{
+    padding-bottom:  30px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: block;  
 
 }
 footer {
     border: 10px solid green
+}
+body {
+    border:  40px solid rgb(2, 56, 2);
 }
