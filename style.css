@@ -27,9 +27,14 @@ main{
     display: block;  
 
 }
-footer {
-    border: 10px solid green
+#gauche {
+    float: left
+}
+#droite {
+    float: right
 }
 body {
-    border:  40px solid rgb(2, 56, 2);
+    border:  40px solid rgb(198, 236, 193);
+    background-color: rgb(183, 240, 191);
+    font-family:  sans-serif, Arial, Helvetica; 
 }

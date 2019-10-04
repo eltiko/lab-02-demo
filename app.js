@@ -19,13 +19,13 @@ function askStudy() {
 }
 
 function askStudyS() {
-  var studyPlus = prompt ( 'Dou i like sciences ?');
+  var studyPlus = prompt ( 'Do i like sciences ?');
   studyPlus = studyPlus.toUpperCase();
   if (studyPlus === 'YES' || studyPlus === 'Y'){
     alert ('amazing');
     counter++;
   } else {
-    alert('Oh' + '' + username + '' + 'science makes the word go around');
+    alert('Of course i like it' + ' ' + username + ' ' + 'science makes the word go around');
   }
 }
 
