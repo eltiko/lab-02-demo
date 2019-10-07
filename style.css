@@ -1,7 +1,7 @@
 h1 {
     text-transform: uppercase;
     color: blue;
-    background-color: rgba(117, 223, 107, 0.747);
+    background-color: rgba(230, 176, 95, 0.747);
     font-size: 19px; 
     text-align: center;
     border: 3px solid black; 
@@ -34,12 +34,13 @@ main{
     float: right
 }
 body {
-    border:  40px solid rgb(198, 236, 193);
-    background-color: rgb(183, 240, 191);
+    border:  40px solid rgb(236, 212, 193);
+    background-color: rgba(231, 214, 189, 0.747);
     font-family:  sans-serif, Arial, Helvetica; 
 }
 .barre li {
-    border: 2px solid green; 
+    border: 2px solid rgb(14, 15, 14); 
     display: inline-block;  
     text-align: center; 
+    float: right; 
 }
