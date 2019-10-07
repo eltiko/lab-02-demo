@@ -38,3 +38,8 @@ body {
     background-color: rgb(183, 240, 191);
     font-family:  sans-serif, Arial, Helvetica; 
 }
+.barre li {
+    border: 2px solid green; 
+    display: inline-block;  
+    text-align: center; 
+}
